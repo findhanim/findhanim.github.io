@@ -1,20 +1,6 @@
 body{
   background-color: #ffffff;
-  background: url(https://i.imgur.com/dgbnjlS.jpg);
-  background-repeat: no-repeat;
   margin: 50px;
-}
-
-@media screen and (min-width: 601px) {
-  body{
-  background-size: 100%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  body{
-  background-size: 180%;
-  }
 }
 
 a {
