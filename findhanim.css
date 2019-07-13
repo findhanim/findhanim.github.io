@@ -10,61 +10,51 @@ a {
 
 /* ----------- Top links */
 
-.nav-links .fab{
+.topbar .fab{
   color: #333333;
   font-size: 20px;
   margin-right: 20px;
   transform: scale(1.0);
   transition: 0.3s;
-  padding-top: 20px;
+  margin-top: 30px;
 }
 
-.nav-links .fab:hover{
+.topbar .fab:hover{
   transition: 0.3s;
-  color: #5363a9;
-  transform: scale(1.2);
+  color: #8da191;
+  transform: scale(1.5);
+}
+
+.topbar h5{
+ font-family: 'Space Mono', serif;
+ font-size: 15px;
+ font-weight: 400;
+ text-align: left;
+ text-transform: uppercase;
+ color: #8da191;
+ margin-top: 30px;
 }
 
 /* ----------- Header */
 
-.header h1{
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  color: #333333;
-}
-
-.header h5{
- font-family: 'Space Mono', serif;
- font-size: 17px;
- font-weight: 400;
- text-align: left;
- text-transform: uppercase;
- color: #5363a9;
+.header{
+  background: url(https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80);
+  background-position: center;
+  margin-top: 30px;
+  color: #dddddd;
 }
 
 @media screen and (min-width: 601px) {
-  .header h1{
-  font-size: 80px;
-  line-height: 80px;
-  padding-bottom: 20px;
-  }
-
-  .header h5{
-  font-size: 17px;
-  padding-top: 120px;
+  .header{
+  background-size: 100%;
+  padding: 200px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .header h1{
-  font-size: 42px;
-  line-height: 42px;
-  padding-bottom: 0px;
-  }
-
-  .header h5{
-  font-size: 14px;
-  padding-top: 50px;
+  .header{
+  background-size: 150%;
+  padding: 150px 50px;
   }
 }
 
@@ -89,7 +79,7 @@ a {
   font-family: 'Space Mono', monospace;
   font-size: 14px;
   font-weight: 400;
-  color: #5363a9;
+  color: #8da191;
   text-transform: uppercase;
   line-height: 17px;
 }
@@ -136,7 +126,7 @@ a {
   font-family: 'Space Mono', monospace;
   font-size: 15px;
   font-weight: 400;
-  color: #5363a9;
+  color: #8da191;
   text-transform: uppercase;
   line-height: 20px;
   text-align: center;
@@ -165,7 +155,7 @@ a {
 }
 
 .about a {
-  color: #5363a9;
+  color: #8da191;
   text-decoration: none;
   transition: 0.3s; 
 }
@@ -199,7 +189,7 @@ a {
 .behance-btn h5:hover{
   transition: 0.3s;
   background: #ffffff;
-  color: #5363a9;
+  color: #8da191;
 }
 
 .behance-btn .fas{
@@ -227,7 +217,7 @@ a {
   color: #ffffff;
 }
 .code-desc a:hover{
-  color: #5363a9;
+  color: #8da191;
 }
 
 .code-desc h3{
@@ -247,7 +237,7 @@ a {
 .code-desc h3:hover{
   transition: 0.3s;
   background: #ffffff;
-  color: #5363a9;
+  color: #8da191;
 }
 
 .code-desc .fas{
@@ -265,6 +255,15 @@ a {
 
 /* -------------- The Footer */
 
+.footer-img{
+  background: url(https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80);
+  background-position: bottom;
+  background-size: 100%;
+  padding: 20px;
+  color: #dddddd;
+  margin-bottom: 30px;
+}
+
 .footer h5{
   font-family: 'Space Mono', monospace;
   font-size: 12px;
@@ -277,7 +276,7 @@ a {
 
 .footer a{
   text-decoration: none;
-  color: #5363a9;
+  color: #8da191;
   transition: 0.3s;
 }
 
@@ -288,6 +287,18 @@ a {
 }
 
 /* -------------- Dividers */
+
+.top-div{ 
+  margin-top: 0px;
+  margin-bottom: 60px; 
+  border-top: 2px solid #333333;
+}
+
+.bottom-div{ 
+  margin-top: 60px;
+  margin-bottom: 0px; 
+  border-top: 2px solid #333333;
+}
 
 .big-div{ 
   margin-top: 60px;
