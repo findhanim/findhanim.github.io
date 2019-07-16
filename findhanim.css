@@ -1,6 +1,7 @@
 body{
   background-color: #000000;
   margin: 50px;
+  overflow-x: hidden;
 }
 
 a {
@@ -109,11 +110,6 @@ a {
   color: #ffffff;
   line-height: 38px;
   letter-spacing: -1px;
-}
-
-.sec-title c{
-  color: #ffffff;
-  font-size: 70px;
 }
 
 /* -------------- My Services */
@@ -331,4 +327,37 @@ a {
   margin-top: 60px;
   margin-bottom: 0px; 
   border-top: 2px solid #dddddd;
+}
+
+.top-btn{
+  position: relative;
+  border: 2px solid #dddddd;
+}
+
+.top-btn .fas{
+  color: #ffffff;
+  font-size: 13px;
+}
+
+@media screen and (min-width: 601px) {
+  .top-btn{
+    right: 20px;
+    bottom: 20px;
+    padding: 8px 15px;
+  }
+  .top-btn .fas{
+    font-size: 13px;
+  }
+
+}
+@media screen and (max-width: 600px) {
+  .top-btn{
+    right: 2px;
+    bottom: 2px;
+    padding: 0px 9px;
+  }
+
+  .top-btn .fas{
+    font-size: 7px;
+  }
 }
