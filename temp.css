@@ -41,9 +41,18 @@ body{
   font-weight: bold;
 } 
 
+.blurb img{
+  width: 50%;
+}
+
 @media screen and (max-width: 600px) {
   .blurb {
   margin-top: 80px;
+  font-size: 13px;
+   }
+
+  .blurb img{
+  width: 80%;
   }
 }
 
